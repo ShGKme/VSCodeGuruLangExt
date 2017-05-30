@@ -6,8 +6,8 @@ There is basic language hightlighting and snippets
 
 ## Features
 
-![Guru Extention](https://github.com/Sha-Grisha/VSCodeGuruLangExt/blob/master/images/GuruExt.gif?raw=true)
+![Guru Extension GIF](https://github.com/Sha-Grisha/VSCodeGuruLangExt/blob/master/images/GuruExt.gif?raw=true)
 
 ## Known Issues
 
-There are not many keywords for hightlighting. Write me, if it need to add smth...
+There are not many keywords for hightlighting. Write me, if it needs to add smth...

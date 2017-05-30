@@ -2,11 +2,11 @@
     "name": "gurulang",
     "displayName": "GuruLang",
     "description": "Some basic support for Guru (an expert systems shell)",
-    "version": "0.0.1",
+    "version": "0.2.0",
     "publisher": "Sha-Grisha",
     "icon": "images/guruIcon.PNG",
     "galleryBanner": {
-        "color": "#00000",
+        "color": "#000000",
         "theme": "dark"
     },
     "license": "MIT License",
@@ -28,17 +28,27 @@
         "Snippets"
     ],
     "contributes": {
-        "languages": [{
-            "id": "gurulang",
-            "aliases": ["Guru Langs", "gurulang"],
-            "extensions": [".iff",".rss"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "gurulang",
-            "scopeName": "source.gurulang",
-            "path": "./syntaxes/gurulang.tmLanguage.json"
-        }],
+        "languages": [
+            {
+                "id": "gurulang",
+                "aliases": [
+                    "Guru Langs",
+                    "gurulang"
+                ],
+                "extensions": [
+                    ".iff",
+                    ".rss"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "gurulang",
+                "scopeName": "source.gurulang",
+                "path": "./syntaxes/gurulang.tmLanguage.json"
+            }
+        ],
         "snippets": [
             {
                 "language": "gurulang",
