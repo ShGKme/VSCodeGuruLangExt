@@ -4,16 +4,16 @@
     "description": "Some basic support for Guru (an expert systems shell)",
     "version": "0.0.1",
     "publisher": "Sha-Grisha",
-    "icon": "images/guruIcon.png",
+    "icon": "images/guruIcon.PNG",
     "galleryBanner": {
         "color": "#00000",
         "theme": "dark"
     },
     "license": "MIT License",
-    "homepage": "https://gitlab.com/ShaGrisha/VSCodeGuruLangExt",
+    "homepage": "https://github.com/Sha-Grisha/VSCodeGuruLangExt",
     "repository": {
         "type": "git",
-        "url": "https://ShaGrisha@gitlab.com/ShaGrisha/VSCodeGuruLangExt.git"
+        "url": "https://github.com/Sha-Grisha/VSCodeGuruLangExt"
     },
     "author": {
         "name": "Sha-Grisha",
