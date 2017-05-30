@@ -5,6 +5,10 @@
     "version": "0.0.1",
     "publisher": "Sha-Grisha",
     "icon": "images/guruIcon.png",
+    "galleryBanner": {
+        "color": "#00000",
+        "theme": "dark"
+    },
     "license": "MIT License",
     "homepage": "https://gitlab.com/ShaGrisha/VSCodeGuruLangExt",
     "repository": {
