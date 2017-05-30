@@ -1,0 +1,62 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "gurulang",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#comments"
+		},
+		{
+			"include": "#strings"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [{
+				"name": "keyword",
+				"match": "(?i:\\b(if|then|else|endif|changes|reason|label|initial|goal|do|var|find|form|endform|rule|end)\\b)"
+			},
+			{
+				"name": "constant.numeric",
+				"match": "(?i:\\b(unknown|[0-9]+)\\b)"
+			},
+			{
+				"name": "support.function",
+				"match": "(?i:\\b(clear|load|release|putform|getform|tally|wait|known|put|get)\\b)"
+			},
+			{
+				"name": "keyword.control",
+				"match": "(?i:\\b(and|or|not|=|:|at|to)\\b)"
+			},
+			{
+				"name": "variable",
+				"match": "(?i:\\b[0-9-z_\\-]+\\b)"
+			}]
+		},
+		"comments": {
+			"name": "comment.block",
+			"begin": "/\\*",
+			"end": "\\*/",
+			"patterns": [
+				{
+					"name": "comment.block",
+					"match": "\\\\."
+				}
+			]
+		},
+		"strings": {
+			"name": "string.quoted.double.gurulang",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.gurulang",
+					"match": "\\\\."
+				}
+			]
+		}
+	},
+	"scopeName": "source.gurulang"
+}

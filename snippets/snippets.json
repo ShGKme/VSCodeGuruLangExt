@@ -1,0 +1,51 @@
+{
+    "Guru Rule Set Template": {
+        "prefix": "Guru",
+        "body": [
+            "GOAL: ${1:goal}",
+            "",
+            "INITIAL:",
+            "\t${2:initial}",
+            "",
+            "DO:",
+            "\t${3:do}",
+            "",
+            "END:"
+        ],
+        "description": "Basic template gor Guru rule set"
+    },
+    "Guru Rule": {
+        "prefix": "Rule",
+        "body": [
+            "RULE: R${1:num}",
+            "\tIF: ${2:condition}",
+            "\tTHEN: ${3:then}",
+            "\tCHANGES: ${4:changes}",
+	        "\tREASON: ${5:reason}",
+            ""
+        ],
+        "description": "Add a new rule"
+    },
+    "Guru Var from GETFORM": {
+        "prefix": "VarForm",
+        "body": [
+            "VAR: ${1:name}",
+            "\tFIND:",
+            "\t\tLOAD ${2:FormName}",
+            "\t\tPUTFORM ${2:FormName}",
+            "\t\tGETFORM ${2:FormName}",
+            "\t\tRELEASE ${2:FormName}",
+            "\tLABEL: ${3:label}"
+        ],
+        "description": "Add a new simple var with GETFORM"
+    },
+    "Guru Var from PROC1": {
+        "prefix": "VarProc",
+        "body": [
+            "VAR: ${1:name}",
+            "\tFIND: PERFORM PROC1 USING \"${2:FormName}\",\"${3:QUESTION}\",\"${4:ANS}\",\"${5:AnswerCount}\"",
+            "\tLABEL: ${6:label}"
+        ],
+        "description": "Add a new simple var with GETFORM"
+    }
+}
