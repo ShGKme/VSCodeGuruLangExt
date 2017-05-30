@@ -5,6 +5,12 @@
     "version": "0.0.1",
     "publisher": "Sha-Grisha",
     "icon": "images/guruIcon.png",
+    "license": "MIT License",
+    "homepage": "https://gitlab.com/ShaGrisha/VSCodeGuruLangExt",
+    "repository": {
+        "type": "git",
+        "url": "https://ShaGrisha@gitlab.com/ShaGrisha/VSCodeGuruLangExt.git"
+    },
     "author": {
         "name": "Sha-Grisha",
         "email": "grisha@shartzeff.ru",
