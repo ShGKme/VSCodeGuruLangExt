@@ -6,7 +6,7 @@ There is basic language hightlighting and snippets
 
 ## Features
 
-![Guru Extention](images/GuruExt.gif)
+![Guru Extention](https://gitlab.com/ShaGrisha/VSCodeGuruLangExt/raw/master/images/GuruExt.gif)
 
 ## Known Issues
 
