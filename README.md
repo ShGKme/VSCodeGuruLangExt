@@ -57,7 +57,7 @@ Note that the variable name is editing everywhere on the template at the same ti
 
 ### VarGetVar
 
-Snippet `VarPGETFDB` helps to make basic Var section template using my procedure (you can find it on the (repository)[]).
+Snippet `VarPGETFDB` helps to make basic Var section template using my procedure (you can find it on the [repository](https://raw.githubusercontent.com/Sha-Grisha/VSCodeGuruLangExt/master/files/PGETFDB.IPF).
 
 It works the same as previous..
 
