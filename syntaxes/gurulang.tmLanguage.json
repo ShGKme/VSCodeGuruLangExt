@@ -16,15 +16,15 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword",
-				"match": "(?i:\\b(if|then|else|endif|changes|reason|label|initial|goal|do|var|find|form|endform|rule|end)\\b)"
+				"match": "(?i:\\b(if|then|else|endif|changes|reason|label|initial|goal|do|var|find|form|endform|rule|end|while|endwhile|from|use|for|endfor)\\b)"
 			},
 			{
 				"name": "constant.numeric",
-				"match": "(?i:\\b(unknown|[0-9]+)\\b)"
+				"match": "(?i:\\b([0-9]+)\\b)"
 			},
 			{
 				"name": "support.function",
-				"match": "(?i:\\b(clear|load|release|putform|getform|tally|wait|known|put|get)\\b)"
+				"match": "(?i:\\b(clear|load|release|putform|getform|tally|wait|known|put|get|convert|obtain|perform)\\b)"
 			},
 			{
 				"name": "keyword.control",
@@ -33,6 +33,14 @@
 			{
 				"name": "variable",
 				"match": "(?i:\\b[0-9-z_\\-]+\\b)"
+			},
+			{
+				"name": "variable",
+				"match": "(?i:\\b#[0-9-z_\\-]+\\b)"
+			},
+			{
+				"name": "support.type",
+				"match": "(?i:\\b(variant|record|array|unknown|decimal|logic)\\b)"
 			}]
 		},
 		"comments": {

@@ -12,12 +12,12 @@
             "",
             "END:"
         ],
-        "description": "Basic template gor Guru rule set"
+        "description": "Basic template for Guru rule set"
     },
     "Guru Rule": {
         "prefix": "Rule",
         "body": [
-            "RULE: R${1:num}",
+            "RULE: ${1:ruleName}",
             "\tIF: ${2:condition}",
             "\tTHEN: ${3:then}",
             "\tCHANGES: ${4:changes}",
@@ -25,6 +25,16 @@
             ""
         ],
         "description": "Add a new rule"
+    },
+    "Guru Var": {
+        "prefix": "Var",
+        "body": [
+            "VAR: ${1:name}",
+            "\tFIND:",
+            "\t\t${2:find}",
+            "\tLABEL: ${3:label}"
+        ],
+        "description": "Add a new simple Var"
     },
     "Guru Var from GETFORM": {
         "prefix": "VarForm",
@@ -37,15 +47,24 @@
             "\t\tRELEASE ${2:FormName}",
             "\tLABEL: ${3:label}"
         ],
-        "description": "Add a new simple var with GETFORM"
+        "description": "Add a new simple Var with GETFORM"
     },
     "Guru Var from PROC1": {
         "prefix": "VarProc",
         "body": [
             "VAR: ${1:name}",
-            "\tFIND: PERFORM PROC1 USING \"${2:FormName}\",\"${3:QUESTION}\",\"${4:ANS}\",\"${5:AnswerCount}\"",
+            "\tFIND: PERFORM PROC1 USING \"${2:FormName}\",\"${3:QuestionNumber}\",\"${1:name}\",\"${4:AnswersCount}\"",
+            "\tLABEL: ${5:label}"
+        ],
+        "description": "Add a new simple Var using Proc1"
+    },
+    "Guru Var from PGETFDB": {
+        "prefix": "VarPGETFDB",
+        "body": [
+            "VAR: ${1:name}",
+            "\tFIND: PERFORM PGETFDB USING \"${1:name}\",\"$(2:FormName}\",\"${3:FormErr}\",\"${4:QustionNum}\",\"${5:AnswersCount}\"",
             "\tLABEL: ${6:label}"
         ],
-        "description": "Add a new simple var with GETFORM"
+        "description": "Add a new simple var using PGETFDB"
     }
 }
