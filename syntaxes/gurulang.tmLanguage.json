@@ -16,7 +16,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword",
-				"match": "(?i:\\b(if|then|else|endif|changes|reason|label|initial|goal|do|var|find|form|endform|rule|end|while|endwhile|from|use|for|endfor|using)\\b)"
+				"match": "(?i:\\b(if|then|else|endif|changes|reason|label|initial|goal|do|var|find|form|endform|rule|end|while|endwhile|from|use|for|endfor|use|dim)\\b)"
 			},
 			{
 				"name": "constant.numeric",
