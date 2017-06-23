@@ -2,7 +2,7 @@
     "name": "gurulang",
     "displayName": "GuruLang",
     "description": "Some basic support for Guru (an expert systems shell)",
-    "version": "0.7.0",
+    "version": "0.8.0",
     "publisher": "Sha-Grisha",
     "icon": "images/guruIcon.PNG",
     "galleryBanner": {
