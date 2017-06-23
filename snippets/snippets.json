@@ -20,8 +20,7 @@
             "RULE: ${1:ruleName}",
             "\tIF: ${2:condition}",
             "\tTHEN: ${3:then}",
-            "\tCHANGES: ${4:changes}",
-	        "\tREASON: ${5:reason}",
+	        "\tREASON: ${4:reason}",
             ""
         ],
         "description": "Add a new rule"
@@ -62,8 +61,8 @@
         "prefix": "VarPGETFDB",
         "body": [
             "VAR: ${1:name}",
-            "\tFIND: PERFORM PGETFDB USING \"${1:name}\",\"$(2:FormName}\",\"${3:FormErr}\",\"${4:QustionNum}\",\"${5:AnswersCount}\"",
-            "\tLABEL: ${6:label}"
+            "\tFIND: PERFORM PGETFDB USING \"${1:name}\",\"${2:QustionNum}\",\"${3:AnswersCount}\"",
+            "\tLABEL: ${4:label}"
         ],
         "description": "Add a new simple var using PGETFDB"
     }

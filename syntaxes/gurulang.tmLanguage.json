@@ -16,7 +16,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword",
-				"match": "(?i:\\b(if|then|else|endif|changes|reason|label|initial|goal|do|var|find|form|endform|rule|end|while|endwhile|from|use|for|endfor)\\b)"
+				"match": "(?i:\\b(if|then|else|endif|changes|reason|label|initial|goal|do|var|find|form|endform|rule|end|while|endwhile|from|use|for|endfor|using)\\b)"
 			},
 			{
 				"name": "constant.numeric",
@@ -28,7 +28,7 @@
 			},
 			{
 				"name": "keyword.control",
-				"match": "(?i:\\b(and|or|not|=|:|at|to)\\b)"
+				"match": "(?i:\\b(and|or|not|=|:|at|to|with)\\b)"
 			},
 			{
 				"name": "variable",

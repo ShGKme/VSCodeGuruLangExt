@@ -69,6 +69,10 @@ Look how to switch encoding in VS Code. (Click on the bottom)
 
 ![Guru Encoding GIF](images/GuruEncoding.gif)
 
+You can also setup encoding once for a whole project, so you won't need to change the encoding each time.
+
+![Guru Project Encoding GIF](images/GuruProjectEncoding.gif)
+
 ## Copyrights and License
 
 License - [MIT License](LICENSE.md).
