@@ -16,7 +16,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword",
-				"match": "(?i:\\b(if|then|else|endif|changes|reason|label|initial|goal|do|var|find|form|endform|rule|end|while|endwhile|from|use|for|endfor|use|dim)\\b)"
+				"match": "(?i:\\b(if|then|else|endif|changes|reason|label|initial|goal|do|var|find|form|endform|rule|end|while|endwhile|from|use|for|endfor|dim)\\b)"
 			},
 			{
 				"name": "constant.numeric",
@@ -24,11 +24,11 @@
 			},
 			{
 				"name": "support.function",
-				"match": "(?i:\\b(clear|load|release|putform|getform|tally|wait|known|put|get|convert|obtain|perform)\\b)"
+				"match": "(?i:\\b(clear|load|release|putform|getform|tally|wait|known|put|get|convert|obtain|perform|finish)\\b)"
 			},
 			{
 				"name": "keyword.control",
-				"match": "(?i:\\b(and|or|not|=|:|at|to|with)\\b)"
+				"match": "(?i:\\b(and|or|not|=|:|at|to|with|using|all)\\b)"
 			},
 			{
 				"name": "variable",
@@ -40,7 +40,7 @@
 			},
 			{
 				"name": "support.type",
-				"match": "(?i:\\b(variant|record|array|unknown|decimal|logic)\\b)"
+				"match": "(?i:\\b(record|array|unknown|decimal|logic|num)\\b)"
 			}]
 		},
 		"comments": {
