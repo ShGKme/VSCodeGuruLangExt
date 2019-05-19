@@ -57,7 +57,7 @@ Note that the variable name is editing everywhere on the template at the same ti
 
 ### VarGetVar
 
-Snippet `VarPGETFDB` helps to make basic Var section template using my procedure (you can find it on the [repository](https://raw.githubusercontent.com/Sha-Grisha/VSCodeGuruLangExt/master/files/PGETFDB.IPF).
+Snippet `VarPGETFDB` helps to make basic Var section template using my procedure (you can find it on the [repository](https://raw.githubusercontent.com/ShGKme/VSCodeGuruLangExt/master/files/PGETFDB.IPF).
 
 It works the same as previous..
 
@@ -77,4 +77,4 @@ You can also setup encoding once for a whole project, so you won't need to chang
 
 License - [MIT License](LICENSE.md).
 
-Author - (Shartsev Grigorii) Sha-Grisha
+Author - Grigorii K. Shartsev (ShGKme)

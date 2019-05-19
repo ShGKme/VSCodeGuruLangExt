@@ -10,15 +10,15 @@
         "theme": "dark"
     },
     "license": "MIT License",
-    "homepage": "https://github.com/Sha-Grisha/VSCodeGuruLangExt",
+    "homepage": "https://github.com/ShGKme/VSCodeGuruLangExt",
     "repository": {
         "type": "git",
-        "url": "https://github.com/Sha-Grisha/VSCodeGuruLangExt"
+        "url": "https://github.com/ShGKme/VSCodeGuruLangExt"
     },
     "author": {
-        "name": "Sha-Grisha",
-        "email": "grisha@shartzeff.ru",
-        "url": "//sha-grisha.ru"
+        "name": "Grigorii K. Shartsev",
+        "email": "me@shgk.me",
+        "url": "https://shgk.me"
     },
     "engines": {
         "vscode": "^1.12.0"
